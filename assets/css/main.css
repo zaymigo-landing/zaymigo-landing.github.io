@@ -144,7 +144,7 @@
 .popup .header .ico--close {
   position: absolute;
   top: 5px;
-  right: 15px;
+  right: 0;
   display: block;
   background: url("/../../all-assets/img/btn_close.png") no-repeat;
   background-size: cover;
@@ -162,6 +162,7 @@
 
 .popup .main form .field {
   position: relative;
+  right: -5px;
   margin: 25px 0;
   clear: both;
   text-align: right;
