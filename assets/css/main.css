@@ -65,7 +65,6 @@
   text-align: center;
   font-weight: 200;
   font-size: 1.2em;
-  font-family: 'sans-serif';
 }
 
 .ch_title--white {
@@ -619,7 +618,7 @@
   color: #fff;
   background-color: #18b0d1;
   border: 1px solid #18b0d1;
-  box-shadow: 0 5px 24px 18px #f2f2f5;
+  box-shadow: 0 5px 24px 18px rgba(242, 242, 245, 0.52);
 }
 
 .comp_slider {
@@ -1301,7 +1300,7 @@ section#why-we .why-content--active {
 .flip-tabs {
   list-style-type: none;
   margin-top: 65px;
-  box-shadow: 2px 0 38px 4px #ebebee;
+  box-shadow: 2px 0 38px 4px rgba(242, 242, 245, 0.66);
   width: 960px;
 }
 
