@@ -65,6 +65,7 @@
   text-align: center;
   font-weight: 200;
   font-size: 1.2em;
+  font-family: 'sans-serif';
 }
 
 .ch_title--white {
@@ -138,7 +139,7 @@
   top: 5px;
   right: 15px;
   display: block;
-  background: url("./../../all-assets/img/btn_close.png") no-repeat;
+  background: url("../FIXimg/btn_close.png") no-repeat;
   background-size: cover;
   padding: 5px;
   cursor: pointer;
@@ -216,7 +217,7 @@
 }
 
 .popup .main form .field--agreement input[type=checkbox]:checked + label:before {
-  background: url("./../img/ic_checkmark.png") no-repeat;
+  background: url("../img/ic_checkmark.png") no-repeat;
   background-position: center;
   background-size: 80%;
   color: #18b0d1;
@@ -326,7 +327,7 @@
 
 .block-youtube .child-youtube {
   margin-left: 5px;
-  background: url("./../img/youtube-child.png") no-repeat center;
+  background: url("../img/youtube-child.png") no-repeat center;
   height: 60px;
   width: 150px;
 }
@@ -504,7 +505,7 @@
 }
 
 .ico-point {
-  background: url("./../img/ico-point.png") no-repeat;
+  background: url("../img/ico-point.png") no-repeat;
   width: 20px;
   height: 20px;
   position: absolute;
@@ -632,7 +633,7 @@
   position: relative;
   cursor: pointer;
   top: 25px;
-  background: url("./../img/arrow.png") no-repeat;
+  background: url("../img/arrow.png") no-repeat;
   width: 50px;
   height: 80px;
 }
@@ -1081,7 +1082,7 @@ header .block--2 h2 {
   margin-right: 15px;
   height: 60px;
   width: 60px;
-  background: url("./../../all-assets/img/info-pack-sprites.png") no-repeat;
+  background: url("../../all-assets/img/info-pack-sprites.png") no-repeat;
 }
 
 .block-info-header .elm--1 i {
@@ -1208,7 +1209,7 @@ section#about .main-block .row--1 .block--1 {
 }
 
 section#about .main-block .row--1 .block--1 .img {
-  background: url("./../img/pig.png") no-repeat center;
+  background: url("../img/pig.png") no-repeat center;
 }
 
 section#about .main-block .row--1 .block--2 {
@@ -1218,14 +1219,14 @@ section#about .main-block .row--1 .block--2 {
 section#about .main-block .row--1 .block--2 .img {
   position: relative;
   top: 20px;
-  background: url("./../img/img_automate.png") no-repeat center;
+  background: url("../img/img_automate.png") no-repeat center;
 }
 
 section#about .main-block .row--2 {
   padding-top: 20px;
   width: 100%;
   height: 400px;
-  background: url("./../img/bg-about.png") no-repeat;
+  background: url("../img/bg-about.png") no-repeat;
   background-size: cover;
 }
 
@@ -1300,7 +1301,7 @@ section#why-we .why-content--active {
 .flip-tabs {
   list-style-type: none;
   margin-top: 65px;
-  box-shadow: 2px 0 38px 4px rgba(242, 242, 245, 0.66);
+  box-shadow: 0 5px 24px 0 #f0f1f3;
   width: 960px;
 }
 
@@ -1308,7 +1309,7 @@ section#why-we .why-content--active {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+      justify-content: space-between;
 }
 
 .flip-tabs .row--1 .flip-tab:first-child, .flip-tabs .row--1 .flip-tab:last-child {
@@ -1400,7 +1401,7 @@ section#why-we .why-content--active {
   position: absolute;
   top: 10px;
   right: 25px;
-  background: url("./../img/why-pack-sprite.png") no-repeat;
+  background: url("../img/why-pack-sprite.png") no-repeat;
   width: 80px;
   height: 80px;
 }
@@ -1437,7 +1438,7 @@ section#why-we .why-content--active {
   position: absolute;
   top: 10px;
   right: 25px;
-  background: url("./../img/sprite-is_working.png") no-repeat;
+  background: url("../img/sprite-is_working.png") no-repeat;
   width: 80px;
   height: 80px;
 }
@@ -1513,7 +1514,7 @@ section#is-working .info-working .block .ico {
   position: absolute;
   top: 10px;
   right: 15px;
-  background: url("./../img/is-working-sprite.png") no-repeat;
+  background: url("../img/is-working-sprite.png") no-repeat;
   display: block;
   width: 87px;
   height: 90px;
@@ -1561,7 +1562,7 @@ section#is-working .block-map .map {
   top: -95px;
   right: -115px;
   height: 425px;
-  background: url("./../img/map-investor-v2.png") no-repeat;
+  background: url("../img/map-investor-v2.png") no-repeat;
   background-size: cover;
 }
 
@@ -1588,7 +1589,7 @@ section#comments .comp_slider .slide {
 }
 
 section#comments .comp_slider .content {
-  background: url("./../img/wrap-comment.png") no-repeat;
+  background: url("../img/wrap-comment.png") no-repeat;
   width: 810px;
   padding: 25px 20px;
   height: 205px;
@@ -1642,7 +1643,7 @@ section#easy-transacation .block {
 }
 
 section#easy-transacation .block--1 {
-  background: url("./../img/bg-transaction.png") no-repeat;
+  background: url("../img/bg-transaction.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -1734,7 +1735,7 @@ section#feedback .main-content .info .ico_feedback {
   display: block;
   height: 35px;
   width: 35px;
-  background: url("./../img/feedback.png") no-repeat;
+  background: url("../img/feedback.png") no-repeat;
 }
 
 section#feedback .main-content .info .text {

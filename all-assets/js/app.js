@@ -289,9 +289,9 @@ $(function () {
         // Закрыть попап
         closePopup: function closePopup(e) {
             // Выключаем видео
-/*            var iframe = $('#video-vimeo')[0];
+            var iframe = $('#video-vimeo')[0];
             var player = $f(iframe);
-            player.api('unload');*/
+            player.api('unload');
 
             $('.popup').fadeOut(200);
             $('#root').removeClass('overlay');
@@ -305,9 +305,9 @@ $(function () {
         if (!div.is(e.target) // если клик был не по попапу
         && div.has(e.target).length === 0) {
 
-/*            var iframe = $('#video-vimeo')[0];
+            var iframe = $('#video-vimeo')[0];
             var player = $f(iframe);
-            player.api('unload');*/
+            player.api('unload');
 
             div.fadeOut(200); // скрываем
             $('#root').removeClass('overlay');
