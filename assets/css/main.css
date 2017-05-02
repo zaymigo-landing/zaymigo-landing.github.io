@@ -618,7 +618,7 @@
   color: #fff;
   background-color: #18b0d1;
   border: 1px solid #18b0d1;
-  box-shadow: 0 5px 24px 18px rgba(242, 242, 245, 0.52);
+  box-shadow: 0 5px 24px 0 #f0f1f3;
 }
 
 .comp_slider {
@@ -1308,7 +1308,7 @@ section#why-we .why-content--active {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-      justify-content: space-between;
+  justify-content: space-between;
 }
 
 .flip-tabs .row--1 .flip-tab:first-child, .flip-tabs .row--1 .flip-tab:last-child {
