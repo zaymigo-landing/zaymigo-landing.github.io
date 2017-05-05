@@ -813,7 +813,7 @@ section#info ul li:first-child {
 }
 
 section#info ul li .ico-info {
-  background: url("./../../all-img/info-pack-sprites.png") no-repeat;
+  background: url("./../../all-assets/img/info-pack-sprites.png") no-repeat;
   display: block;
   margin-right: 15px;
 }
