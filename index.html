@@ -4,528 +4,349 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--link(rel='shortcut icon' href="./assets/img/favicon.ico" type="image/ico")-->
+    <link rel="shortcut icon" href="all-img/favicon.ico" type="image/ico">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./all-assets/external/external.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <title>Инвестор</title>
   </head>
-</html>
-<body>
-  <!-- @TODO: Сменить шрифт (.ch_title)-->
-  <div id="root">
-    <div class="wrapper wrapper--header">
-      <header id="scene">
-        <div class="block-title">
-          <div class="logo"><img src="./all-assets/img/logo.png" alt="zaymigo" width="225"></div>
-          <div class="child-title">
-            <div class="block-phone"><span><b>Есть вопросы? Звоните!</b></span><br>
-              <h3 class="phone">8 800 787-89-65</h3>
-            </div>
-            <div class="block-buttons-auth-reg"><a class="btn btn--register js-popup-register">Регистрация</a><a class="btn btn--auth js-popup-login">Вход</a></div>
-          </div>
-        </div>
+  <body>
+    <div id="root">
+      <header>
+        <div class="block-title"><img src="./all-assets/img/logo.png" alt="zaymigo" class="logo"><a href="tel: 8 800 700-72-86" class="link-phone">8 800 700-72-86</a><img src="./assets/img/ic_profile.png" class="ico-personal-office js-popup-login"></div>
         <main>
-          <div class="block block--1">
-            <h2>Станьте банкиром.<br>Это просто!</h2>
-            <div class="child-title">
-              <h3>Инвестируйте в микрозаймы.<br>Начните прямо сейчас и с любой суммы!</h3>
-            </div>
-            <div class="block-buttons"><a class="main-button main-button--green js-popup-register">Инвестировать</a>
-              <div class="block-youtube"><a class="btn-youtube js-show-video"><img src="./all-assets/img/ico-youtube.png" alt="video-zaymigo"></a>
-                <div class="child-youtube"></div>
-              </div>
-            </div>
+          <div class="title-head">
+            <h3>до</h3>
+            <h2>32%</h2>
           </div>
-          <div data-depth="0.3" class="block block--2 layer">
-            <div class="gradient-title-block"><span>до</span>
-              <h1>32%</h1>
-            </div><span class="gradient-text">доходности в год</span>
-          </div>
+          <h3>доходности в год</h3><span>Инвестируйте в микрозаймы.<br>Начните прямо сейчас и любой суммы!</span>
         </main>
+        <div class="block-buttons"><a class="main-button main-button--green js-popup-register">Инвестировать</a>
+          <div class="js-show-video button-youtube"><img src="./all-assets/img/ico-youtube.png"><span>О Zaymigo</span></div>
+        </div>
       </header>
-    </div>
-    <div class="block-info-header">
-      <div class="elm elm--1"><i></i><span>Легкий старт без опыта<br> в инвестировании</span></div>
-      <div class="elm elm--2"><i></i><span>Постоянная техническая<br>и информационая поддержка</span></div>
-      <div class="elm elm--3"><i></i><span>Никуда ходить не надо,<br>вся работа онлайн</span></div>
-    </div>
-    <div class="wrapper wrapper--calculator">
-      <section id="calculator">
-        <h3 class="ch_title ch_title--white">Банковские вклады ушли в прошлое!<br>Попробуйте калькулятор и узнайте, сколько вы можете заработать</h3>
-        <form class="calc">
-          <!-- @TODO: Перенести на шаблон backbone-->
-        </form>
-        <div class="footer"><span>*Доход описан на основе ретро данных, но не является гарантированным.</span></div>
-      </section>
-    </div>
-    <div class="wrapper wrapper--about">
-      <section id="about">
-        <h2 class="title">О Zaymigo</h2>
-        <h3 class="ch_title">Zaymigo - это площадка, где инвесторы встречаются с заемщиками напрямую.<br>Инвестор зарабатывает, выдавая займы проверенным заемщикам.</h3>
-        <div class="main-block">
-          <div class="row row--1">
-            <div class="block block--1">
-              <div class="img"></div>
-              <h3>Диверcификация вложений</h3><span>Каждый займ в системе финансирует сразу<br>несколько сотен инвесторов. Это минимизирует<br>риски и позволяет создать портфель из сотен<br>займов даже из 10000.</span>
-            </div>
-            <div class="block block--2">
-              <div class="img"></div>
-              <h3>Полная автоматизация инвестиций</h3><span>Вам не нужно подбирать заемщиков, изучать их<br>кредитную историю и отправлять им деньги<br>вручную. Мы - эксперты своего дела<br>и сделаем это за вас.</span>
-            </div>
-          </div>
-          <div class="row row--2">
-            <div class="content">
-              <div class="block block--1 js_slide_left">
-                <h2 class="title">Как это работает</h2>
-                <div class="comp_slider js-slider-pepper">
-                  <div class="arrow arrow--left"></div>
-                  <div class="peppermint">
-                    <figure class="slide"><img src="./assets/img/slide-1-1.png">
-                      <div class="content"><span>Мы привлекаем заемщиков<br>со всех уголков РФ.</span></div>
-                    </figure>
-                    <figure class="slide"><img src="./assets/img/slide-1-2.png">
-                      <div class="content"><span>Мы привлекаем заемщиков<br>со всех уголков РФ.</span></div>
-                    </figure>
-                    <figure class="slide"><img src="./assets/img/slide-1-3.png">
-                      <div class="content"><span>Мы привлекаем заемщиков<br>со всех уголков РФ.</span></div>
-                    </figure>
-                    <figure class="slide"><img src="./assets/img/slide-1-4.png">
-                      <div class="content"><span>Мы привлекаем заемщиков<br>со всех уголков РФ.</span></div>
-                    </figure>
-                  </div>
-                  <div class="arrow arrow--right"></div>
-                </div>
-              </div>
-              <div class="block block--2 js_slide_right">
-                <h2 class="title">С чего начать</h2>
-                <div class="comp_slider js-slider-pepper">
-                  <div class="arrow arrow--left"></div>
-                  <div class="peppermint">
-                    <figure class="slide"><img src="./assets/img/slide-2-1.png">
-                      <div class="content"><span>Мы привлекаем заемщиков<br>со всех уголков РФ.</span></div>
-                    </figure>
-                    <figure class="slide"><img src="./assets/img/slide-2-2.png">
-                      <div class="content"><span>Мы привлекаем заемщиков<br>со всех уголков РФ.</span></div>
-                    </figure>
-                    <figure class="slide"><img src="./assets/img/slide-2-3.png">
-                      <div class="content"><span>Мы привлекаем заемщиков<br>со всех уголков РФ.</span></div>
-                    </figure>
-                  </div>
-                  <div class="arrow arrow--right"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <div class="wrapper wrapper--invest">
-      <h2 class="ch_title ch_title--invest">Начните инвестировать прямо сейчас.<br>С моментальной регистрации и любой суммы.</h2>
-      <div class="center"><a class="main-button main-button--white js-popup-register">Инвестировать</a></div>
-    </div>
-    <div class="wrapper wrapper--why-we">
-      <section id="why-we" class="js_animate">
-        <h2 class="title">Почему мы</h2>
-        <ul data-tabs="whyChangeContent" class="tabs why-tabs js-block-tabs">
-          <li data-tab="1" class="js-tab why-tab why-tab--active">Безопасно</li>
-          <li data-tab="2" class="js-tab why-tab">Удобно</li>
+      <section id="info">
+        <ul>
+          <li><i class="ico-info ico-info--1"></i>Легкий старт без опыта</li>
+          <li><i class="ico-info ico-info--2"></i>Поддержка круглые сутки</li>
+          <li><i class="ico-info ico-info--3"></i>Вся работа онлайн</li>
         </ul>
-        <div id="why-content-1" class="main-content why-content why-content--active">
-          <ul class="flip-tabs">
-            <div class="row row--1">
-              <li class="flip-tab">
-                <div class="front"><i class="ico ico--1"></i><span>Все данные о транкзациях открыты<br>и доступны в личном кабинете.</span></div>
-                <div class="back"><span>Все данные о транкзациях открыты<br>и доступны в личном кабинете.</span></div>
-              </li>
-              <li class="flip-tab">
-                <div class="front"><i class="ico ico--2"></i><span>Ваши персональные данные защищены<br>и не попадут в руки третьих лиц.</span></div>
-                <div class="back"><span>Ваши персональные данные защищены<br>и не попадут в руки третьих лиц.</span></div>
-              </li>
-              <li class="flip-tab">
-                <div class="front"><i class="ico ico--3"></i><span>Ваши деньги хранятся на счетах<br>Альфа-Банка.</span></div>
-                <div class="back"><span>Ваши деньги хранятся на счетах<br>Альфа-Банка.</span></div>
-              </li>
-            </div>
-            <div class="row row--2">
-              <li class="flip-tab">
-                <div class="front"><i class="ico ico--4"></i><span>Отчитываемся напрямую перед<br>Центральным Банком РФ.</span></div>
-                <div class="back"><span>Отчитываемся напрямую перед<br>Центральным Банком РФ.</span></div>
-              </li>
-              <li class="flip-tab">
-                <div class="front"><i class="ico ico--5"></i><span>У нас есть лицензия МФО. Мы законно<br>кредитуем людей с 2013 года.</span></div>
-                <div class="back"><span>У нас есть лицензия МФО. Мы законно<br>кредитуем людей с 2013 года.</span><a class="ab_link test-js">Свидетельство МФО</a><br><a class="ab_link">Соглашение об инвестировании</a></div>
-              </li>
-              <li class="flip-tab">
-                <div class="front"><i class="ico ico--6"></i><span>Член СРО МИР. Наравне с лучшими<br>игроками рынка.</span></div>
-                <div class="back"><span>Член СРО МИР. Наравне с лучшими<br>игроками рынка.</span></div>
-              </li>
-            </div>
-          </ul>
-        </div>
-        <div id="why-content-2" class="main-content why-content">
-          <ul class="flip-tabs">
-            <div class="row row--1">
-              <li class="flip-tab">
-                <div class="front"><i class="ico ico--1"></i><span>Легкий старт без опыта<br>в инвестировании.</span></div>
-                <div class="back"><span>Легкий старт без опыта<br>в инвестировании.</span></div>
-              </li>
-              <li class="flip-tab">
-                <div class="front"><i class="ico ico--2"></i><span>Вся работа онлайн: от регистрации<br>до вывода дохода.</span></div>
-                <div class="back"><span>Вся работа онлайн: от регистрации<br>до вывода дохода.</span></div>
-              </li>
-              <li class="flip-tab">
-                <div class="front"><i class="ico ico--3"></i><span>Широкий диапазон инвестирования:<br>от 1 000 до 300 000</span></div>
-                <div class="back"><span>Широкий диапазон инвестирования:<br>от 1 000 до 300 000</span></div>
-              </li>
-            </div>
-            <div class="row row--2">
-              <li class="flip-tab">
-                <div class="front"><i class="ico ico--4"></i><span>Вывод в любой рабочий день<br>от 500 рублей</span></div>
-                <div class="back"><span>Вывод в любой рабочий день<br>от 500 рублей</span></div>
-              </li>
-              <li class="flip-tab">
-                <div class="front"><i class="ico ico--5"></i><span>Личный менеджер, обеспечивающий<br>информационную поддержку</span></div>
-                <div class="back"><span>Личный менеджер, обеспечивающий<br>информационную поддержку</span><a class="ab_link test-js">Свидетельство МФО</a><br><a class="ab_link">Соглашение об инвестировании</a></div>
-              </li>
-              <li class="flip-tab">
-                <div class="front"><i class="ico ico--6"></i><span>Срок инвестиций от нескольких дней<br>до нескольких лет</span></div>
-                <div class="back"><span>Срок инвестиций от нескольких дней<br>до нескольких лет</span></div>
-              </li>
-            </div>
-          </ul>
-        </div>
       </section>
-    </div>
-    <div class="wrapper wrapper--is-working">
-      <section id="is-working">
-        <h2 class="title">Zaymigo Работает</h2>
-        <h3 class="ch_title">Ежедневно мы выдаем до 500 займов.<br>Половина клиентов обращается к нам за повторным займом.</h3>
-        <div class="info-working">
-          <div class="block block--1"><i class="ico ico--1"></i>
-            <div class="text">
-              <h4 class="js_autoNumber">253</h4><span>Выдано займов в сутки</span>
-            </div>
-          </div>
-          <div class="block block--2"><i class="ico ico--2"></i>
-            <div class="text">
-              <h4 class="js_autoNumber">2,4</h4><span>млн. руб. инвестиций в сутки</span>
-            </div>
-          </div>
-          <div class="block block--3"><i class="ico ico--3"></i>
-            <div class="text">
-              <h4 class="js_autoNumber">1,2</h4><span>млн. руб. заработано в сутки</span>
-            </div>
-          </div>
-        </div>
-        <div class="block-map">
-          <div class="block block--1">
-            <h4 class="js_autoNumber">212 342</h4><span>Обслуженных клиентов по всей России</span>
-          </div>
-          <div class="block block--2">
-            <div class="map js_slide_right"><i class="ico-point ico-point--1"></i><i class="ico-point ico-point--2"></i><i class="ico-point ico-point--3"></i><i class="ico-point ico-point--4"></i><i class="ico-point ico-point--5"></i><i class="ico-point ico-point--6"></i><i class="ico-point ico-point--7"></i><i class="ico-point ico-point--8"></i><i class="ico-point ico-point--9"></i><i class="ico-point ico-point--10"></i><i class="ico-point ico-point--11"></i><i class="ico-point ico-point--12"></i><i class="ico-point ico-point--13"></i></div>
-          </div>
-        </div>
+      <section id="calculator">
+        <div class="title"><span>Попробуйте калькулятор и узнайте,<br>сколько вы можете заработать.</span></div>
+        <!--.calc-tabs.js-block-tabs(data-tabs='calcTypePerson')
+        .calc-tab.calc-tab--active.js-tab.js-tab--active
+            span Физическое лицо
+        .calc-tab.js-tab
+            span Юридическое лицо
+        -->
+        <main>
+          <form action="#" class="calc"></form>
+        </main>
+        <div class="footer-calc"><span>
+            * Доход описан на основе ретро данных,
+            но не является гарантированным.</span></div>
       </section>
-    </div>
-    <div class="wrapper wrapper--comments">
-      <section id="comments">
-        <h2 class="ch_title">Они уже зарабатывают с Zaymigo</h2>
-        <div class="main-content">
-          <div class="comp_slider js-slider-pepper">
+      <section id="about">
+        <div class="header">
+          <h2 class="title">O Zaymigo</h2>
+          <main><span>
+              Zaymigo - это площадка, это площадка, где инвесторы
+              встречаются с заемщиками напрямую. Инвестор зарабатывает,
+              выдавая займы проверенным заемщикам.</span></main>
+        </div>
+        <div class="how-it-works">
+          <h2 class="title">Как это работает</h2>
+          <div class="js-slider-pepper slider">
             <div class="arrow arrow--left"></div>
-            <div class="peppermint">
-              <figure class="slide">
-                <div class="header">
-                  <div class="person"><img src="./assets/img/comment-1.png" alt="avatar">
-                    <div class="info"><span>Евгений Петров</span>
-                      <div class="child"><span>32 года • Менеджер • Москва</span></div>
-                    </div>
-                  </div>
-                  <div class="info-invest">
-                    <div class="invest"><span>Инвестировано</span>
-                      <h4>560 030 <span class="sym_rub">o</span>
-                      </h4>
-                    </div>
-                    <div class="earn"><span>Заработано</span>
-                      <h4>720 232 <span class="sym_rub">o</span>
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="content"><span>Давно хотел начать самостоятельно зарабатывать и не зависеть ни от кого. После долгого поиска остановился на Zaymigo. Вложил свои накопления, и уже через месяц начал получать прибыль. Zaymigo - стал для меня основным и проверенным источником дохода уже на протяжении двух лет. Рекомендую!</span></div>
-              </figure>
-              <figure class="slide">
-                <div class="header">
-                  <div class="person"><img src="./assets/img/comment-2.png" alt="avatar">
-                    <div class="info"><span>Максим Плотников</span>
-                      <div class="child">
-                        <spaa>32 года • Менеджер • Москва</spaa>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="info-invest">
-                    <div class="invest"><span>Инвестировано</span>
-                      <h4>774 000 <span class="sym_rub">o</span>
-                      </h4>
-                    </div>
-                    <div class="earn"><span>Заработано</span>
-                      <h4>1 120 684 <span class="sym_rub">o</span>
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="content"><span>Никогда не любил складывать яйца в одну корзину. Есть несколько депозитов в банке, ПАММ-счет, небольшой пакет акций Сбербанка. В качестве эксперимента решил вложить часть средств в Zaymigo</span></div>
-              </figure>
-              <figure class="slide">
-                <div class="header">
-                  <div class="person"><img src="./assets/img/comment-3.png" alt="avatar">
-                    <div class="info"><span>Михаил Орлов</span>
-                      <div class="child">
-                        <spaa>32 года • Менеджер • Москва</spaa>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="info-invest">
-                    <div class="invest"><span>Инвестировано</span>
-                      <h4>164 424 <span class="sym_rub">o</span>
-                      </h4>
-                    </div>
-                    <div class="earn"><span>Заработано</span>
-                      <h4>691 424 <span class="sym_rub">o</span>
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="content"><span>Есть своя компания, периодически скапливается лишняя оборота. Вкладываю в Zaymigo под выгодный процент</span></div>
-              </figure>
-            </div>
             <div class="arrow arrow--right"></div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <div class="wrapper wrapper--easy-transaction">
-      <section id="easy-transacation">
-        <div class="main-content">
-          <div class="block block--1 js_slide_left">
-            <!-- bg image-->
-            <!--img(src='./assets/img/bg-transaction.png')-->
-          </div>
-          <div class="wrap-right">
-            <div class="block block--2 js_slide_right">
-              <div class="content">
-                <h2 class="title">Удобные<br>транкзации</h2>
-                <div class="text"><span>Пополняйте счет удобным для вас способом и выводите<br>средства по запросу в любой рабочий день.</span></div>
-              </div>
-            </div>
-            <div class="partners js_slide_bottom">
-              <div class="content"><span><b>Наши партнеры</b></span><img src="./assets/img/partners.png"></div>
+            <div class="reviews-slider peppermint">
+              <figure class="reviews-slide">
+                <div class="image-slide"><img src="./assets/img/how-slide_1.png" width="150"></div>
+                <div class="content-slide"><span>Мы привликаем заемщиков со всех уголков РФ</span></div>
+              </figure>
+              <figure class="reviews-slide">
+                <div class="image-slide"><img src="./assets/img/how-slide_2.png" width="150"></div>
+                <div class="content-slide"><span>Мы привликаем заемщиков со всех уголков РФ</span></div>
+              </figure>
+              <figure class="reviews-slide">
+                <div class="image-slide"><img src="./assets/img/how-slide_4.png" width="150"></div>
+                <div class="content-slide"><span>Мы привликаем заемщиков со всех уголков РФ</span></div>
+              </figure>
             </div>
           </div>
         </div>
+        <div class="where-begin">
+          <h2 class="title">С чего начать</h2>
+          <div class="js-slider-pepper slider">
+            <div class="arrow arrow--left"></div>
+            <div class="arrow arrow--right"></div>
+            <div class="reviews-slider peppermint">
+              <figure class="reviews-slide">
+                <div class="image-slide"><img src="./assets/img/begin-slide_1.png" width="150"></div>
+                <div class="content-slide"><span>Проходите моментальную онлайн регистрацию</span></div>
+              </figure>
+              <figure class="reviews-slide">
+                <div class="image-slide"><img src="./assets/img/begin-slide_2.png" width="150"></div>
+                <div class="content-slide"><span>Мы привликаем заемщиков со всех уголков РФ</span></div>
+              </figure>
+              <figure class="reviews-slide">
+                <div class="image-slide"><img src="./assets/img/begin-slide_3.png" width="150"></div>
+                <div class="content-slide"><span>Мы привликаем заемщиков со всех уголков РФ</span></div>
+              </figure>
+            </div>
+          </div>
+        </div>
       </section>
-    </div>
-    <div class="wrapper wrapper--quest">
+      <section id="why-we">
+        <h2 class="title">Почему мы?</h2>
+        <div data-tabs="whyChangeContent" class="why-tabs js-block-tabs">
+          <div data-tab="1" class="why-tab js-tab why-tab--active"><span>Безопасно</span></div>
+          <div data-tab="2" class="why-tab js-tab"><span>Удобно</span></div>
+        </div>
+        <div id="why-content-1" class="why-content why-content--active">
+          <ul>
+            <li><i class="ico-why ico-why--1"></i><span>Все данные о транкзациях открыты. И доступны в личном кабинете.</span></li>
+            <li><i class="ico-why ico-why--2"></i><span>Ваши данные защищены и не попадут в руки третьих лиц.</span></li>
+            <li><i class="ico-why ico-why--3"></i><span>Ваши деньги хранятся на счетах Альфа-Банка.</span></li>
+            <li><i class="ico-why ico-why--4"></i><span>Отитываемся напрямую перед Центральным Банком РФ.</span></li>
+            <li><i class="ico-why ico-why--5"></i><span>У нас есть лицензия МФО. Мы законно кредитуем людей с 2013 года.
+                <div class="links"><a href="http://zaymigo.com/document/download/public/licence.pdf" class="ab_link">Свидетельство МФО</a><br><a href="http://zaymigo.com/document/download/public/invest_offer_preview.pdf" class="ab_link">Соглашение об инвестиции</a></div></span></li>
+            <li><i class="ico-why ico-why--6"></i><span>Член СРО МИР. Наравне с лучшими игроками России.</span></li>
+          </ul>
+        </div>
+        <div id="why-content-2" class="why-content">
+          <ul>
+            <li><i class="ico-why ico-why--1"></i><span>Никаких специальных навыков не труебуется. Все самое сложное берет на себя система.</span></li>
+            <li><i class="ico-why ico-why--2"></i><span>Деньги сами распределяются в займы. Вам не придется вручную отбирать и оценивать кажого заемщика</span></li>
+            <li><i class="ico-why ico-why--3"></i><span>Один раз настроил и забыл. Система приносит постоянный доход даже без вашего участия.</span></li>
+            <li><i class="ico-why ico-why--4"></i><span>Удобный личный кабинет позволяет с легкостью управлять портфелем.</span></li>
+            <li><i class="ico-why ico-why--5"></i><span>Начать можно даже с 1000 рублей, никаких лимитов на вывод нет.</span></li>
+          </ul>
+        </div>
+      </section>
+      <section id="invest">
+        <div class="title"><span>Попробуйте калькулятор и узнайте,<br>сколько вы можете заработать.</span></div>
+        <div class="ab_center"><a class="js-popup-register main-button main-button--white">Инвестировать</a></div>
+      </section>
+      <section id="is-working">
+        <h2 class="title">Zaymigo работает</h2>
+        <div class="title"><span>Ежедневно мы выдаем до 500 займов.<br>К настоящему времени мы обслужили 212 212 клиентов по всей России.</span></div>
+        <div class="info">
+          <div class="invest">
+            <h3>2,4</h3><span>млн. руб. инвестиций<br>за cутки</span>
+          </div>
+          <div class="income">
+            <h3>1,2</h3><span>млн. руб. заработано<br>за cутки</span>
+          </div>
+        </div>
+        <div class="block-comment"><span class="title">Они уже зарабатывают с Zaymigo</span>
+          <div class="js-slider-pepper slider">
+            <div class="arrow arrow--left"></div>
+            <div class="arrow arrow--right"></div>
+            <div class="reviews-slider peppermint">
+              <figure class="reviews-slide">
+                <div class="image-slide"><img src="./assets/img/how-slide_1.png" width="150"></div>
+                <div class="content-slide"><span>Мы привликаем заемщиков со всех уголков РФ</span></div>
+              </figure>
+              <figure class="reviews-slide">
+                <div class="image-slide"><img src="./assets/img/how-slide_2.png" width="150"></div>
+                <div class="content-slide"><span>Мы привликаем заемщиков со всех уголков РФ</span></div>
+              </figure>
+              <figure class="reviews-slide">
+                <div class="image-slide"><img src="./assets/img/how-slide_3.png" width="150"></div>
+                <div class="content-slide"><span>Мы привликаем заемщиков со всех уголков РФ</span></div>
+              </figure>
+              <figure class="reviews-slide">
+                <div class="image-slide"><img src="./assets/img/how-slide_4.png" width="150"></div>
+                <div class="content-slide"><span>Мы привликаем заемщиков со всех уголков РФ</span></div>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="transaction">
+          <div class="text">
+            <h1 class="title">Удобные транкзации</h1><span class="title">Пополняйте счет удобным для вас способом и<br>выводите средства по запросу<br>в любой рабочий день.</span>
+          </div>
+        </div>
+        <div class="partners">
+          <h3 class="title">Наши партнеры:</h3>
+          <div class="bg-partrners ab_center"></div>
+        </div>
+      </section>
       <section id="questions">
-        <h2 class="title">Вопросы и ответы</h2>
-        <div class="main-content comp_questions js_animate">
-          <div class="row">
-            <ul>
-              <li><a data-tab="1" class="quest_link js-tab js-tab-quest js-tab-quest--active">На чем я заработаю?</a>
-                <div id="questTab-1" class="js-content-quest js-content-quest--active"><span>Вы будете вкладывать средства в займы и получать процентный доход с них.</span></div>
-              </li>
-              <li><a data-tab="2" class="quest_link js-tab-quest js-tab">Сколько я заработаю?</a>
-                <div id="questTab-2" class="js-content-quest"><span>Заемщики берут займы по ставкам до 1.9% в день. Такой уровень ставок покрывает убыток по займам, ушедшим в дефолт.<br>Ваш доход может в несколько раз превышать ставку по банковскому депозиту при уровне волатильности значительно ниже, чем на фондовом рынке.<br>По нашим данным, при включенном реинвестировании дохода, за последний год инвестор мог бы заработать 25% сверх тела инвестиции.</span></div>
-              </li>
-              <li><a data-tab="3" class="quest_link js-tab-quest js-tab">Какие комиссии я заплачу?</a>
-                <div id="questTab-3" class="js-content-quest"><span>Инвестор платит следующие комиссии:</span>
-                  <ul>
-                    <li>Комиссия в размере 13% от прибыли инвестора;</li>
-                    <li>Комиссия за возврат просрочки более 10 дней - 12% от возвращенной суммы.</li>
-                  </ul>
-                </div>
-              </li>
-              <li><a data-tab="4" class="quest_link js-tab-quest js-tab">Какие показатели стоит отслеживать?</a>
-                <div id="questTab-4" class="js-content-quest">
-                  <ul>
-                    <li>Средства в займах – размер вашего портфеля.<span>По этим займам возможны возврат основного долга и получение процентного дохода. Хороший знак, если портфель растет.</span></li>
-                  </ul><span>Кроме того, в разделе Мои займы вы можете посмотреть детальную информацию по любому займу, в который вы вошли, просто кликнув по нему. А в разделе Лента вы можете посмотреть статистику по всем заявкам на займы, обрабатываемым системой в реальном времени.</span>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="row">
-            <ul>
-              <li><a data-tab="5" class="quest_link js-tab-quest js-tab">Что нужно от меня?</a>
-                <div id="questTab-5" class="js-content-quest"><span>Площадка Zaymigo предлагает пассивный доход. Никаких специальных навыков не требуется.<br>Всю рутинную работу - привлечение, оценка и отсев заемщиков, обеспечение транзакций и провод платежей, сопровождение займов до полного погашения - выполняем мы.<br>От вас потребуются финансовые вложения и минимум времени. Благодаря модели группового инвестирования, попробовать себя в роли банкира можно с даже с небольшой суммой от 1 000 рублей (рекомендуемый минимум 100 000 рублей).<br>Система распределяет капитал в займы по установленным вами параметрам и предоставляет прозрачную статистику движения средств.</span></div>
-              </li>
-              <li><a data-tab="6" class="quest_link js-tab-quest js-tab">Какие есть риски инвестирования?</a>
-                <div id="questTab-6" class="js-content-quest"><span>Существует риск дефолта заемщика и невозврата займа. Данный риск несет инвестор.</span></div>
-              </li>
-              <li><a data-tab="7" class="quest_link js-tab-quest js-tab">Как Zaymigo борется с рисками?</a>
-                <div id="questTab-7" class="js-content-quest">
-                  <ul>
-                    <li>Во-первых, действует принцип группового финансирования. Каждый займ финансируется не одним, а группой инвесторов. Таким образом, вы вкладываете свои деньги в большее количество займов. Показатели просрочки стремятся к предсказанным средним значениям по закону больших числел, поэтому чем больше ваш портфель, тем надежнее ваши инвестиции.</li>
-                    <li>Во-вторых, система выдает займы лишь самым надежным заемщикам. Мы проводим индентификацию и скоринг заемщиков: анализируем кредитную историю, социальные контакты, данные об исполнительных производствах и вкладываем только в те займы, которые с большей вероятностью принесут доход.</li>
-                    <li>В-третьих, мы эффективно работаем с просрочкой до полного погашения задолженности.</li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <h2 class="title--left">Вопросы и ответы</h2>
+        <main>
+          <ul data-tabs="changeQuest" class="js-block-tabs">
+            <li><a data-tab="1" class="js-tab js-tab--active js-tab-quest js-tab-quest--active">На чем я заработаю?</a>
+              <div id="questTab-1" class="js-content-quest js-content-quest--active"><span><br>Вы будете вкладывать средства в займы и получать процентный доход с них.</span></div>
+            </li>
+            <li><a data-tab="2" class="js-tab js-tab-quest">Сколько я заработаю?</a>
+              <div id="questTab-2" class="js-content-quest"><span><br>Заемщики берут займы по ставкам до 1.5% в день. Такой уровень ставок покрывает убыток по займам, ушедшим в дефолт.
+                  Ваш доход может в несколько раз превышать ставку по банковскому депозиту при уровне волатильности значительно ниже, чем на фондовом рынке.
+                  По нашим данным, при включенном реинвестировании дохода, за последний год инвестор мог бы заработать 31.2% сверх тела инвестиции.</span></div>
+            </li>
+            <li><a data-tab="3" class="js-tab js-tab-quest">С какой суммы можно начать?</a>
+              <div id="questTab-3" class="js-content-quest"><span><br>Минимальная сумма инвестиции 1000 рублей. Мы рекомендуем инвестировать от 100 000 рублей, так вы сможете создать надежный портфель, состоящий из большого числа займов.</span></div>
+            </li>
+            <li><a data-tab="4" class="js-tab js-tab-quest">Что нужно от меня?</a>
+              <div id="questTab-4" class="js-content-quest"><span><br>Площадка Zaymigo предлагает пассивный доход. Никаких специальных навыков не требуется.<br>Всю рутинную работу - привлечение, оценка и отсев заемщиков, обеспечение транзакций и провод платежей, сопровождение займов до полного погашения - выполняем мы.<br>Система распределяет капитал в займы по установленным вами параметрам и предоставляет прозрачную статистику движения средств.</span></div>
+            </li>
+          </ul>
+        </main>
       </section>
-    </div>
-    <div class="wrapper wrapper--feedback">
-      <section id="feedback">
-        <div class="main-content">
-          <div class="info"><i class="ico_feedback"></i>
-            <div class="text">
-              <h3>Остались вопросы?</h3><span>Не нашли ответа? Мы готовы ответить на ваши вопросы по<br>телефону с 8.00 до 20.00 ежедневно, без выходных.</span>
-              <div class="call-me"><span>Позвоните нам</span><br><span class="phone">8 (800) 700-72-86</span></div>
-              <div class="to-feedback"><img src="./assets/img/arrow-feedback.png"><span>Или напишите нам</span></div>
-            </div>
-          </div>
-          <form id="feedbackForm" action="#" class="feedback">
-            <div class="row"><a id="jsSelectTheme" data-jq-dropdown="#jq-dropdown-1" data-type="field" class="dropdown">Выберите тему</a>
-              <input id="feedTheme" type="hidden" value="">
-              <div id="jq-dropdown-1" class="jq-dropdown jq-dropdown-tip">
-                <ul class="jq-dropdown-menu">
-                  <li><a data-theme="1" class="js_quest-target">Вопрос о работе системы</a></li>
-                  <li><a data-theme="2" class="js_quest-target">Сообщение о ошибке</a></li>
-                  <li><a data-theme="3" class="js_quest-target">Предложение о сотрудничестве</a></li>
-                </ul>
-              </div>
-              <input id="feedEmail" type="text" data-type="field" name="email" placeholder="Ваша почта" class="js-feed-email">
-            </div>
-            <div data-type="field" data-minField="9" class="block_field">
-              <textarea id="feedMessage" name="message" placeholder="Сообщение" class="js-feed-message"></textarea>
-            </div>
-            <div class="center">
-              <div class="js-err-message-feedback-msg err"></div>
-              <div class="js-msg-succes">Сообщение успешно отправлено!</div><a class="ab_button ab_center--text js-feedback js-btn_feedback is-disabled">Отправить</a>
-            </div>
-          </form>
-        </div>
+      <section id="register">
+        <div class="title"><span>Начните прямо сейчас.<br>Достаточно пройти простую регистрацию.</span></div>
+        <div class="ab_center"><a href="" class="js-popup-register main-button main-button--white">Регистрация</a></div>
       </section>
-    </div>
-    <div class="wrapper wrapper--invest">
-      <h2 class="ch_title ch_title--invest">Начните зарабатывать прямо сейчас.<br>Достаточно пройти моментальную регистрацию.</h2>
-      <div class="center"><a class="main-button main-button--white js-popup-register">Регистрация</a></div>
-    </div>
-    <footer><img src="all-assets/img/logo-footer.png"></footer>
-  </div>
-  <div class="popup popup--register">
-    <div class="header">
-      <h2 class="title">Регистрация</h2><i class="ico--close js-close-popup"></i>
-    </div>
-    <div class="main">
-      <form id="userRegisterForm" action="#">
-        <div data-minField="13" class="field">
-          <label for="userPhone">Моб. телефон</label>
-          <input id="userPhone" type="text" data-typefield="phone" min="12" max="12" placeholder="моб. телефон" required>
-          <div class="err err--username"><span>Неверный формат телефона</span></div>
+      <footer>
+        <h3 class="title--left">Остались вопросы?</h3>
+        <main><span>Не нашли ответа? Мы готовы ответить на ваши вопросы по телефону с 9.00 до 18.00 ежедневно, без выходных.</span></main>
+        <div class="callback"><a class="btn_feedback js-show-feedback"><img src="./assets/img/ico-mail.png">Напишите нам</a>
+          <div class="call"><span>Или позвоните</span><br><a href="tel: 88003434343" class="link-phone link-phone--blue">8 (800) 343-43-43</a></div>
         </div>
-        <div data-minField="6" class="field">
-          <label for="userpass">Пароль</label>
-          <input id="userpass" type="password" data-typefield="password" placeholder="пароль" min="6" max="36" required>
-          <div class="err err--password"><span>Минимальная длина пароля 6 символов</span></div>
+      </footer>
+      <div class="main-footer"><img src="./all-assets/img/logo-footer.png"></div>
+    </div>
+    <script id="templateCalc" type="text/template">
+      <!-- Блок выбора суммы-->
+      <div class="calc-block calc-block--sum">
+        <div class="calc-header calc-header--sum">
+          <div class="title--left">
+            <h3>Хочу вложить</h3>
+          </div>
+          <!-- Поле выбора суммы-->
+          <div class="comp-field comp-field--sum">
+            <input id="selectSumField" type="tel" step="100" value="500000" class="calc-field">
+            <label for="selectSumField">₽</label>
+          </div>
+          <!-- Ползунок выбора-->
         </div>
-        <div class="field">
+        <div class="comp-range comp-range--sum">
+          <input id="selectSumRange" type="range" step="100" min="1000" max="1000000" value="500000" class="range js-range js-range--sum">
+          <div class="tips-range tips-range--sum"><span class="left">1000 ₽</span><span class="right">1000000 ₽</span></div>
+        </div>
+      </div>
+      <div class="calc-block calc-block--period">
+        <div class="calc-header calc-header--period">
+          <div class="title--left">
+            <h3>На срок до</h3>
+          </div>
+          <!-- Поле выбора суммы-->
+          <div class="comp-field comp-field--sum">
+            <input id="selectPeriodField" type="tel" step="100" value="365" class="calc-field">
+            <label for="selectPeriodField">дней</label>
+          </div>
+          <!-- Ползунок выбора-->
+        </div>
+        <div class="comp-range comp-range--sum">
+          <input id="selectPeriodRange" type="range" min="30" max="730" class="range js-range js-range--period">
+          <div class="tips-range tips-range--sum"><span class="left">1 день</span><span class="right">2 года</span></div>
+        </div>
+      </div>
+      <div class="info-calc">
+        <div class="info-return left"><span>Возврат *</span>
+          <h3 class="js-info-return">812 000 ₽</h3>
+        </div>
+        <div class="info-income right"><span>Доход *</span>
+          <h3 class="js-info-income">312 000 ₽</h3>
+        </div>
+      </div><a class="main-button main-button--green js-popup-register">Инвестировать</a>
+    </script>
+    <!-- Попап регистрации-->
+    <div style="display:none" class="popup popup--register">
+      <div class="header-popup">
+        <h3 class="title">Регистрация</h3><i class="ico ico--close js-close-popup"></i>
+      </div>
+      <form id="userRegisterForm" action="">
+        <div data-minField="13" class="field field--userphone">
+          <label for="userPhone">Моб. Телефон</label>
+          <input id="userPhone" type="tel" placeholder="Моб. телефон">
+          <div class="err-msg-field err-msg-field--phone">Не верный номер телефона</div>
+        </div>
+        <div data-minField="6" class="field field--userpass">
+          <label for="userpass">Ваш Пароль</label>
+          <input id="userpass" type="password" placeholder="Ваш пароль">
+          <div class="err-msg-field err-msg-field--pass">Слишком короткий пароль</div>
+        </div>
+        <div class="field field--userRepass">
           <label for="userRePass">Повторите пароль</label>
-          <input id="userRePass" type="password" data-typefield="repassword" min="6" max="36" placeholder="повторите пароль" required>
-          <div class="err err--rePassword"><span>Повторный пароль введен не верно</span></div>
+          <input id="userRePass" type="password" placeholder="Повторите пароль">
+          <div class="err-msg-field err-msg-field--repass">Пароли не совпадают</div>
         </div>
         <div class="field field--agreement">
-          <input id="userAgreement" type="checkbox" checked="checked" required>
-          <label for="userAgreement">Ознакомлен(a) и соглашаюсь с Политикой конфиденциальности</label>
-          <div class="err err--agreement"><span>Дайте согласие на обработку персональных данных</span></div>
+          <input id="userAgreement" type="checkbox" checked="checked">
+          <label for="userAgreement">Даю согласие на обработку персональных данных</label>
+          <div class="err-msg-field err-msg-field--agreement">Дайте согласие на обработку</div>
         </div>
-        <div class="field field--button">
-          <div class="center"><a class="main-button main-button--blue js-user-register js_disabled">Зарегистироваться</a></div>
-        </div>
-      </form>
-    </div>
-  </div>
-  <div class="popup popup--login">
-    <div class="header">
-      <h2 class="title">Авторизация</h2><i class="ico ico--close js-close-popup"></i>
-    </div>
-    <div class="main">
-      <form id="userLoginForm" action="#">
-        <div class="field">
-          <label for="userName">Логин</label>
-          <input id="userName" type="text" min="4" placeholder="моб. телефон или email" required>
-          <div class="err err--username"><span>Неверный логин</span></div>
-        </div>
-        <div class="field">
-          <label for="userLoginPass">Пароль</label>
-          <input id="userLoginPass" type="password" data-typefield="password" placeholder="пароль" min="6" max="36" required>
-          <div class="err err--password"><span>Неверный пароль</span></div>
-        </div>
-        <div class="field field--button">
-          <div class="center"><a class="main-button main-button--green js-login-user">Войти</a></div>
+        <div class="ab_center">
+          <div class="errResponse js-err-register-msg">Произошла ошибка</div><a class="main-button main-button--green js-user-register">Зарегистрироваться</a>
         </div>
       </form>
     </div>
-  </div>
-  <div class="popup popup--youtube">
-    <div class="header">
-      <div class="ico ico--close js-close-popup"></div>
-    </div>
-    <div class="main-content">
-      <iframe id="video-vimeo" src="https://player.vimeo.com/video/96780984" width="760" height="428" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
-  </div>
-  <script id="templateCalc" type="text/template">
-    <div class="section-calculator">
-      <div class="main-calc">
-        <label for="selectSumRange">
-          <div class="calc-title"><span>Хочу вложить</span>
-            <div class="af-input af-input--sum">
-              <input id="selectSumField" type="tel" name="sum" value="500000" required class="js_not_letters range_field--sum">
-              <label for="selectSumField" class="js-symb-inp sym_rub">o</label>
-            </div>
-          </div>
-          <input id="selectSumRange" type="range" step="1000" value="500000" min="1000" max="1000000" class="slider js-range js-range--sum">
-          <div class="ab_range-info"><span>1 000 ₽</span><span>1 000 000 ₽</span></div>
-        </label>
-        <label for="selectPeriodRange">
-          <div class="calc-title calc-title--period"><span>На срок до</span>
-            <div class="af-input af-input--period">
-              <input id="selectPeriodField" type="tel" value="12" name="period" required class="js_not_letters range_field range_field--time js-period">
-              <label for="selectPeriodField" class="js-symb_inp">дней</label>
-            </div>
-          </div>
-          <input id="selectPeriodRange" type="range" value="730" step="1" min="30" max="730" class="slider js-range js-range--period">
-          <div class="ab_range-info"><span>1 месяц</span><span>2 года</span></div>
-        </label>
+    <!-- Попап авторизации-->
+    <div class="popup popup--login">
+      <div class="header-popup">
+        <h3 class="title">Вход в систему</h3><i class="ico ico--close js-close-popup"></i>
       </div>
-      <div class="block-graphs">
-        <div class="calc-graph calc-graph--income js_graph__income"></div>
-        <div class="calc-graph calc-graph--return js_graph__return"></div>
-      </div>
-      <div class="main-info">
-        <div class="block block--1"><span>Прогнозируемый доход</span>
-          <h3 class="js-info-income">247 890 <span class="sym_rub">o</span>
-          </h3>
+      <form id="userLoginForm" action="">
+        <div class="field field--userphone-login">
+          <label for="userLogin">E-mail или телефон</label>
+          <input id="userLogin" type="tel" name="userName" placeholder="E-mail или телефон">
         </div>
-        <div class="block block--2"><span>Прогнозируемый возврат</span>
-          <h3 class="js-info-return">747 890 <span class="sym_rub">o</span>
-          </h3>
+        <div class="field field--login-userpass">
+          <label for="userLoginPass">Ваш пароль</label>
+          <input id="userLoginPass" type="password" placeholder="ваш пароль">
         </div>
-        <div class="block block--3"><a class="main-button main-button--green js-popup-register">Инвестировать</a></div>
-      </div>
+        <div class="err-msg-field err-msg-field--login">Не верный логин или пароль</div>
+        <div class="ab_center">
+          <div class="errResponse js-err-user-login">Произошла ошибка</div><a class="main-button main-button--green js-login-user">Войти</a>
+        </div>
+      </form>
     </div>
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-viewport-checker/1.8.7/jquery.viewportchecker.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-dropdown/2.0.3/jquery.dropdown.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.3/jquery.mask.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"></script>
-  <script src="./all-assets/js/app.js"></script>
-  <script src="./all-assets/external/external-min.js"></script>
-</body>
+    <!-- Попап обратной связи-->
+    <div class="popup popup--feedback">
+      <div class="header-popup">
+        <h3 class="title">Обратная связь</h3><i class="ico ico--close js-close-popup"></i>
+      </div>
+      <form id="feedbackForm" action="">
+        <div class="field field--feed_theme ab_center">
+          <select id="feedTheme">
+            <option value="0" disabled="disabled" selected="selected">Выберите тему</option>
+            <option value="Вопрос о работе системы">Вопрос о работы системы</option>
+            <option value="Сообщение о ошибке">Сообщение о ошибке</option>
+            <option value="Предложение о сотрудничестве">Предложение о сотрудничестве</option>
+          </select>
+          <div class="err-msg-field err-msg-field--feed_theme">Укажите тему обращения</div>
+        </div>
+        <div class="field field--feed_email">
+          <input id="feedEmail" type="text" placeholder="Ваша почта">
+          <div class="err-msg-field err-msg-field--feed_email">Не верный email</div>
+        </div>
+        <div data-minField="8" class="field field--feed_msg">
+          <textarea id="feedMessage" type="text" placeholder="Ваше сообщение"></textarea>
+          <div class="err-msg-field err-msg-field--feed_message">Слишком короткое сообщение</div>
+        </div>
+        <div class="ab_center">
+          <div class="succes-msg js-msg-succes">Сообщение отправлено!</div>
+          <div class="errResponse js-err-email-feedback-msg">Произошла ошибка</div>
+          <div class="errResponse js-err-message-feedback-msg">Произошла ошибка</div><a class="main-button main-button--green js-feedback">Отправить</a>
+        </div>
+      </form>
+    </div>
+    <!-- Видео-->
+    <div class="popup popup--youtube">
+      <div class="header-popup">
+        <h3 class="title">О Zamigo</h3><i class="ico ico--close js-close-popup"></i>
+      </div>
+      <main>
+        <iframe id="video-vimeo" src="https://player.vimeo.com/video/96780984?autoplay=0" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+      </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.3/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"></script>
+    <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+    <script src="./all-assets/js/app.js"></script>
+    <script src="./all-assets/external/external-min.js"></script>
+  </body>
+</html>
