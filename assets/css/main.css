@@ -347,7 +347,7 @@ a.btn_feedback img {
   text-align: left;
 }
 
-.calc .info-calc .info-return h3 {
+.calc .info-calc .info-return h3, .calc .info-calc .info-return .sym_rub {
   color: #3bb38e;
 }
 
@@ -356,7 +356,7 @@ a.btn_feedback img {
   text-align: right;
 }
 
-.calc .info-calc .info-income h3 {
+.calc .info-calc .info-income h3, .calc .info-calc .info-income .sym_rub {
   color: #18b0d1;
 }
 
@@ -530,8 +530,7 @@ a.btn_feedback img {
 }
 
 .popup--register {
-  min-height: 450px;
-  max-height: 450px;
+  min-height: 480px;
 }
 
 .popup--register .field--agreement {
@@ -568,7 +567,9 @@ a.btn_feedback img {
 }
 
 .popup--register .field--agreement .err-msg-field {
-  top: 35px;
+  top: 43px;
+  white-space: nowrap;
+  left: 0;
 }
 
 .popup--register .field--agreement input[type='checkbox'] {
@@ -583,7 +584,8 @@ a.btn_feedback img {
 }
 
 .popup--register .ab_center {
-  margin-top: 15%;
+  position: relative;
+  top: 30px;
 }
 
 .popup--register .ab_center .main-button {
@@ -678,7 +680,7 @@ a.btn_feedback img {
   font-size: 1em;
 }
 
-.popup--feedback .succes-msg {
+.popup--feedback .success-msg {
   display: none;
   position: absolute;
   margin-left: auto;
@@ -725,6 +727,10 @@ a.btn_feedback img {
 #root {
   margin: 0 auto;
   max-width: 640px;
+}
+
+.sym_rub {
+  font-family: 'rubl';
 }
 
 input[type='text'], input[type='tel'], input[type='password'], textarea {
@@ -1029,6 +1035,7 @@ section#why-we .why-content--active {
 }
 
 #why-content-1 ul li, #why-content-2 ul li {
+  margin: 5px 0;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -1051,81 +1058,58 @@ section#why-we .why-content--active {
   vertical-align: 15px;
 }
 
-#why-content-1 ul li {
-  margin: 5px 0;
-}
-
-#why-content-1 i.ico-why {
-  background: url("../img/why-pack-sprite-2.png") no-repeat;
-  display: block;
-  width: 60px;
-  height: 60px;
-  margin-right: 15px;
-  transform: scale(0.9);
-}
-
-#why-content-1 i.ico-why--1 {
-  background-position: -10px -90px;
-}
-
-#why-content-1 i.ico-why--2 {
-  background-position: -170px -10px;
-}
-
-#why-content-1 i.ico-why--3 {
-  background-position: -90px -90px;
-}
-
-#why-content-1 i.ico-why--4 {
-  background-position: -10px -10px;
-}
-
-#why-content-1 i.ico-why--5 {
-  background-position: -170px -90px;
-}
-
-#why-content-1 i.ico-why--6 {
-  background-position: -90px -10px;
-}
-
-#why-content-2 ul li {
+#why-content-1 ul i.ico-why, #why-content-2 ul i.ico-why {
   position: relative;
-  left: 0;
-}
-
-#why-content-2 i.ico-why {
-  position: relative;
-  left: -10px;
-  background: url("../img/sprite-is_working.png") no-repeat;
-  transform: scale(0.7);
+  background: url("./../../all-assets/img/why_we.sprites.png") no-repeat;
   display: block;
   width: 80px;
   height: 80px;
-  margin-right: -5px;
+  transform: scale(0.7);
+  margin-right: 15px;
+}
+
+#why-content-1 i.ico-why--1 {
+  background-position: -310px -10px !important;
+}
+
+#why-content-1 i.ico-why--2 {
+  background-position: -310px -210px !important;
+}
+
+#why-content-1 i.ico-why--3 {
+  background-position: -10px -10px !important;
+}
+
+#why-content-1 i.ico-why--4 {
+  background-position: -110px -110px !important;
+}
+
+#why-content-1 i.ico-why--5 {
+  background-position: -210px -110px !important;
+}
+
+#why-content-1 i.ico-why--6 {
+  background-position: -110px -210px !important;
 }
 
 #why-content-2 i.ico-why--1 {
-  background-position: -190px -98px;
+  background-position: -310px -110px !important;
 }
 
 #why-content-2 i.ico-why--2 {
-  background-position: -6px -98px;
+  background-position: -10px -210px !important;
 }
 
 #why-content-2 i.ico-why--3 {
-  background-position: -6px -6px;
+  background-position: -10px -110px !important;
 }
 
 #why-content-2 i.ico-why--4 {
-  background-position: -190px -6px;
+  background-position: -110px -10px !important;
 }
 
 #why-content-2 i.ico-why--5 {
-  background-position: -98px -98px;
-}
-
-#why-content-2 i.ico-why--6 {
-  background-position: -98px -6px;
+  background-position: -210px -210px !important;
 }
 
 section#invest {
@@ -1273,7 +1257,7 @@ section#is-working .partners .bg-partrners {
 section#questions {
   padding: 30px 15px 10px 15px;
   background: #fff;
-  min-height: 530px;
+  min-height: 535px;
 }
 
 section#questions main {
