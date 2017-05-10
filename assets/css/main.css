@@ -404,6 +404,10 @@ a.btn_feedback img {
   padding: 5px 3px 5px 5px;
 }
 
+.comp-field--sum label {
+  padding-top: 8px;
+}
+
 .comp-range .range {
   width: 100%;
   -webkit-appearance: none;
