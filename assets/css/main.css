@@ -364,7 +364,8 @@ a.btn_feedback img {
   margin: 10px auto;
   text-align: center;
   font-size: 1.4em;
-  padding: 20px 40px;
+  line-height: 20px;
+  padding: 18px 40px;
 }
 
 .comp-field {
