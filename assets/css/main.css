@@ -5,7 +5,7 @@
 }
 
 i.ico--close {
-  background: url("./../../all-img/btn_close.png") no-repeat;
+  background: url("./../img/btn_close.png") no-repeat;
   background-size: cover;
   width: 20px;
   display: block;
@@ -594,7 +594,7 @@ a.btn_feedback img {
 }
 
 .popup--feedback {
-  min-height: 400px;
+  min-height: 415px;
 }
 
 .popup--feedback .ab_center {
