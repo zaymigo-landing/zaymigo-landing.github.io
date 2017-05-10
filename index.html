@@ -216,13 +216,13 @@
           <!-- Поле выбора суммы-->
           <div class="comp-field comp-field--sum">
             <input id="selectSumField" type="tel" step="100" value="500000" class="calc-field">
-            <label for="selectSumField">₽</label>
+            <label for="selectSumField" class="sym_rub">o</label>
           </div>
           <!-- Ползунок выбора-->
         </div>
         <div class="comp-range comp-range--sum">
           <input id="selectSumRange" type="range" step="100" min="1000" max="1000000" value="500000" class="range js-range js-range--sum">
-          <div class="tips-range tips-range--sum"><span class="left">1000 ₽</span><span class="right">1000000 ₽</span></div>
+          <div class="tips-range tips-range--sum"><span class="left">1000 <span class="sym_rub">o</span></span><span class="right">1000000 <span class="sym_rub">o</span></span></div>
         </div>
       </div>
       <div class="calc-block calc-block--period">
@@ -244,10 +244,12 @@
       </div>
       <div class="info-calc">
         <div class="info-return left"><span>Возврат *</span>
-          <h3 class="js-info-return">812 000 ₽</h3>
+          <h3 class="js-info-income">247 890 <span class="sym_rub">o</span>
+          </h3>
         </div>
         <div class="info-income right"><span>Доход *</span>
-          <h3 class="js-info-income">312 000 ₽</h3>
+          <h3 class="js-info-return">747 890 <span class="sym_rub">o</span>
+          </h3>
         </div>
       </div><a class="main-button main-button--green js-popup-register">Инвестировать</a>
     </script>
@@ -326,7 +328,7 @@
           <div class="err-msg-field err-msg-field--feed_message">Слишком короткое сообщение</div>
         </div>
         <div class="ab_center">
-          <div class="succes-msg js-msg-succes">Сообщение отправлено!</div>
+          <div class="success-msg js-msg-succes">Сообщение отправлено!</div>
           <div class="errResponse js-err-email-feedback-msg">Произошла ошибка</div>
           <div class="errResponse js-err-message-feedback-msg">Произошла ошибка</div><a class="main-button main-button--green js-feedback">Отправить</a>
         </div>
