@@ -434,9 +434,9 @@ var CalculatorView = Backbone.View.extend({
         this.changeRangeSlider('period', $(this.periodRange).attr('max'), $(this.periodRange).attr('min'), false);
 
         // возврат
-        $('.js-info-return').html(_helpers2.default.formatNumber(this.model.incomeMoney()) + ' ₽');
+        $('.js-info-return').html(_helpers2.default.formatNumber(this.model.incomeMoney()) + ' <span class="sym_rub">o</span>');
         // доход
-        $('.js-info-income').html(_helpers2.default.formatNumber(Math.round(this.model.incomeMoney() - this.model.get('sum'))) + ' ₽');
+        $('.js-info-income').html(_helpers2.default.formatNumber(Math.round(this.model.incomeMoney() - this.model.get('sum'))) + ' <span class="sym_rub">o</span>');
 
         this.changeGraphRes(this.model.incomeMoney(), this.model.incomeMoney() - this.model.get('sum'));
     },
