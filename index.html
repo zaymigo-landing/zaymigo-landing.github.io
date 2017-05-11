@@ -53,7 +53,9 @@
     <div class="wrapper wrapper--calculator">
       <section id="calculator">
         <h3 class="ch_title ch_title--white">Банковские вклады ушли в прошлое!<br>Попробуйте калькулятор и узнайте, сколько вы можете заработать</h3>
-        <form class="calc"></form>
+        <form class="calc">
+          <!-- @TODO: Перенести на шаблон backbone-->
+        </form>
         <div class="footer"><span>*Доход описан на основе ретро данных, но не является гарантированным.</span></div>
       </section>
     </div>
@@ -463,7 +465,7 @@
           <div class="err err--password"><span>Неверный пароль</span></div>
         </div>
         <div class="field field--button">
-          <div class="center"><a class="main-button main-button--green js-login-user">Войти в систему</a></div>
+          <div class="center"><a class="main-button main-button--green js-login-user">Войти</a></div>
         </div>
       </form>
     </div>
@@ -487,7 +489,7 @@
             </div>
           </div>
           <input id="selectSumRange" type="range" step="1000" value="500000" min="1000" max="1000000" class="slider js-range js-range--sum">
-          <div class="ab_range-info"><span>1 000 <span class="sym_rub">o</span></span><span>1 000 000 <span class="sym_rub">o</span></span></div>
+          <div class="ab_range-info"><span>1 000 ₽</span><span>1 000 000 ₽</span></div>
         </label>
         <label for="selectPeriodRange">
           <div class="calc-title calc-title--period"><span>На срок до</span>
