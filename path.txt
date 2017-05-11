@@ -1,0 +1,8 @@
+mobile-html:
+	all-assets: ./all-assets/img/
+	img: ./assets/img/
+	js: ./all-assets/js/
+mobile-css:
+	fonts: ./../../all-assets/fonts/
+	all-img: /../../all-assets/img/
+	img: ./../img/
